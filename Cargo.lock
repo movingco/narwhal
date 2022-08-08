@@ -1340,7 +1340,7 @@ dependencies = [
  "futures",
  "indexmap",
  "multiaddr",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
+ "mysten-network",
  "primary",
  "rand 0.7.3",
  "rocksdb",
@@ -2206,27 +2206,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mysten-network"
-version = "0.1.0"
-source = "git+https://github.com/mystenlabs/mysten-infra.git?rev=c6dc7a23a40b3517f138d122a76d3bc15f844f67#c6dc7a23a40b3517f138d122a76d3bc15f844f67"
-dependencies = [
- "anyhow",
- "bincode",
- "bytes",
- "futures",
- "http",
- "multiaddr",
- "serde",
- "tokio",
- "tokio-stream",
- "tonic",
- "tonic-health",
- "tower",
- "tower-http",
- "tracing",
-]
-
-[[package]]
 name = "network"
 version = "0.1.0"
 dependencies = [
@@ -2238,7 +2217,7 @@ dependencies = [
  "crypto",
  "futures",
  "multiaddr",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
+ "mysten-network",
  "prometheus",
  "rand 0.7.3",
  "serde",
@@ -2283,7 +2262,7 @@ dependencies = [
  "executor",
  "futures",
  "hex",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=c6dc7a23a40b3517f138d122a76d3bc15f844f67)",
+ "mysten-network",
  "network",
  "pretty_assertions",
  "primary",
@@ -2751,7 +2730,7 @@ dependencies = [
  "itertools",
  "mockall",
  "multiaddr",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
+ "mysten-network",
  "network",
  "node",
  "once_cell",
@@ -3785,7 +3764,7 @@ dependencies = [
  "futures",
  "indexmap",
  "multiaddr",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
+ "mysten-network",
  "node",
  "primary",
  "prometheus",
@@ -4660,7 +4639,7 @@ dependencies = [
  "ed25519-dalek",
  "futures",
  "multiaddr",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
+ "mysten-network",
  "network",
  "primary",
  "prometheus",
@@ -4870,8 +4849,7 @@ dependencies = [
  "multihash",
  "multihash-derive",
  "multimap",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=123c9e40b529315e1c1d91a54fb717111c3e349c)",
- "mysten-network 0.1.0 (git+https://github.com/mystenlabs/mysten-infra.git?rev=c6dc7a23a40b3517f138d122a76d3bc15f844f67)",
+ "mysten-network",
  "nom",
  "normalize-line-endings",
  "num-bigint",
