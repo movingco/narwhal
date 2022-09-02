@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["WorkerMessage","The message exchanged between workers."]],"mod":[["metrics",""]],"struct":[["Worker",""]]};
